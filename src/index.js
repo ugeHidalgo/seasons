@@ -10,6 +10,9 @@ class App extends React.Component {
         super(props);
 
         this.state = this.createInitialState();
+    }
+
+    componentDidMount = () => {
         this.getInitialposition();
     }
 
